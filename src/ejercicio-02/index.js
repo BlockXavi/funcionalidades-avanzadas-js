@@ -20,3 +20,8 @@ const person2 = {
 
 person.saludo() // Resultado: Hola, soy Xavi
 person2.saludo() // Resultado: Hola, soy undefined
+// Chat GPT: En JavaScript, cuando se utiliza una función de flecha (=>),
+// el valor de this en la función está determinado por el contexto en el 
+// que se define la función, no por cómo se llama la función. En tu caso, 
+// la función saludo está definida como una función de flecha, por lo que 
+// this dentro de esa función no se refiere al objeto person2, sino al contexto circundante.
